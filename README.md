@@ -1,1 +1,1 @@
-# gitlab-themes
+# GitLab Themes
