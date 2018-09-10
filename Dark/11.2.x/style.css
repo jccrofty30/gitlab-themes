@@ -2255,7 +2255,7 @@ div.line-resolve-all {
 }
 
 textarea#note-body,
-textarea#note_note {
+#note_note {
     padding-left: 0.5em;
 }
 
@@ -2280,7 +2280,60 @@ ul.notes .system-note .note-body .note-text.system-note-commit-list:not(.hide-sh
     background-color: var(--lighter-background-1);
 }
 
-li.active span.nav-item-name,
-li.active span.badge.badge-pill.count.merge_counter.js-merge-counter {
+li.active span.nav-item-name {
     color: var(--main-text-color);
+}
+
+.count {
+    color: var(--main-text-color) !important;
+}
+
+.merge-request-tabs-holder {
+    background: var(--main-background);
+}
+
+.discussion-body .diff-file .file-title:hover,
+.gfm-form {
+    background: var(--backgroud-elevated) !important;
+}
+
+.notes_content.parallel.old {
+    background: #1D1F21 !important;
+}
+
+.dropdown-input-field {
+    color: #000 !important;
+}
+
+.dropdown-menu-user-link.is-focused {
+    background: var(--main-btn-background) !important;
+    color: var(--main-text) !important;
+}
+
+.clear-search {
+    background: var(--btn-background) !important;
+    border: 1px solid var(--btn-border) !important;
+}
+
+.clear-search:hover i {
+    color: var(--main-text-color) !important;
+}
+
+.js-visual-token.filtered-search-token .name,
+.value-container {
+    background: var(--btn-background) !important;
+    color: var(--main-text-color) !important;
+}
+
+textarea.note-textarea {
+    padding-left: 0.5em;
+}
+
+.select2-container.select2-container-disabled .select2-choice {
+    border: 1px solid var(--btn-border);
+}
+
+.select2-container.select2-container-disabled .select2-choice .select2-arrow,
+.select2-container.select2-container-disabled .select2-choice {
+    background-color: var(--main-background);
 }
