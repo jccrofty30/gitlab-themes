@@ -2337,3 +2337,7 @@ textarea.note-textarea {
 .select2-container.select2-container-disabled .select2-choice {
     background-color: var(--main-background);
 }
+
+.discussion-form {
+    background-color: var(--lighter-background-1) !important;
+}
