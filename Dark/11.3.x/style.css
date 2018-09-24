@@ -2362,3 +2362,15 @@ body.ui-dark .nav-sidebar li.active>a {
 .idiff.addition {
     background: #007f00;
 }
+
+.board-card-score-big {
+    background-color: var(--main-background) !important;
+}
+
+.convdev-step {
+    background: var(--main-background);
+}
+
+.user-callout .bordered-box {
+    background-color: var(--lighter-background-1);
+}
