@@ -2374,3 +2374,7 @@ body.ui-dark .nav-sidebar li.active>a {
 .user-callout .bordered-box {
     background-color: var(--lighter-background-1);
 }
+
+.slead {
+    color: var(--lighter-text-color-1);
+}
