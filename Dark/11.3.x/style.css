@@ -2378,3 +2378,7 @@ body.ui-dark .nav-sidebar li.active>a {
 .slead {
     color: var(--lighter-text-color-1);
 }
+
+.discussion-header .author-link {
+    color: var(--lighter-text-color-1);
+}
