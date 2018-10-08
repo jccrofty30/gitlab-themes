@@ -2382,3 +2382,7 @@ body.ui-dark .nav-sidebar li.active>a {
 .discussion-header .author-link {
     color: var(--lighter-text-color-1);
 }
+
+.board-card-score-value {
+    color: var(--lighter-text-color-1);
+}
