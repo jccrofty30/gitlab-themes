@@ -2386,3 +2386,12 @@ body.ui-dark .nav-sidebar li.active>a {
 .board-card-score-value {
     color: var(--lighter-text-color-1);
 }
+
+.md table {
+    color: var(--lighter-text-color-1) !important;
+}
+
+.md table > thead > tr > th, ul.notes > li .note-body .note-text table > thead > tr > th,
+.md table > tbody > tr > td, ul.notes > li .note-body .note-text table > tbody > tr > td {
+    border-color: var(--main-text-color) !important;
+}
