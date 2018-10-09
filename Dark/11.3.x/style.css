@@ -2395,3 +2395,7 @@ body.ui-dark .nav-sidebar li.active>a {
 .md table > tbody > tr > td, ul.notes > li .note-body .note-text table > tbody > tr > td {
     border-color: var(--main-text-color) !important;
 }
+
+.emoji-menu {
+    background-color: var(--lighter-background-1);
+}
