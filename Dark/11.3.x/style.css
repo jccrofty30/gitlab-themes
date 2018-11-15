@@ -2399,3 +2399,8 @@ body.ui-dark .nav-sidebar li.active>a {
 .emoji-menu {
     background-color: var(--lighter-background-1);
 }
+
+.time_tracker .time-tracking-help-state {
+    background: var(--lighter-background-1);
+    border-color: var(--main-border);
+}
